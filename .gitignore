@@ -1,0 +1,29 @@
+# --- macOS System Files ---
+.DS_Store
+
+# --- Python Basics ---
+__pycache__/
+*.pyc
+
+# --- Jupyter Notebooks ---
+# These are auto-created backup folders that clutter up GitHub
+.ipynb_checkpoints
+
+# --- IDE Settings (PyCharm) ---
+# You don't want to share your personal editor settings
+.idea/
+
+# --- Virtual Environments ---
+# Even though you use pyenv, it's good practice to ignore these
+# just in case you ever make a local folder.
+.venv
+venv/
+env/
+
+# --- Project Specific ---
+# Ignore the dataset if it contains large files or isn't your own code
+dataset/
+
+# --- Secrets ---
+# Never commit API keys or passwords
+.env
